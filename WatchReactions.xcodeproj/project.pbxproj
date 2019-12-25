@@ -31,6 +31,8 @@
 		41C2E26F23B2BB840018F7D1 /* Peep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41C2E26723B2BB840018F7D1 /* Peep.mp3 */; };
 		41C2E27323B2BD720018F7D1 /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2E27223B2BD720018F7D1 /* SoundRow.swift */; };
 		41C2E27523B2BD8A0018F7D1 /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2E27023B2BCE30018F7D1 /* TableInterfaceController.swift */; };
+		41C2E27723B3F3630018F7D1 /* CustomInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2E27623B3F3630018F7D1 /* CustomInterfaceController.swift */; };
+		41C2E27923B3F6170018F7D1 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2E27823B3F6170018F7D1 /* FileManager-DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,8 @@
 		41C2E26723B2BB840018F7D1 /* Peep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Peep.mp3; sourceTree = "<group>"; };
 		41C2E27023B2BCE30018F7D1 /* TableInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableInterfaceController.swift; path = "WatchReactions WatchKit Extension/TableInterfaceController.swift"; sourceTree = SOURCE_ROOT; };
 		41C2E27223B2BD720018F7D1 /* SoundRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRow.swift; sourceTree = "<group>"; };
+		41C2E27623B3F3630018F7D1 /* CustomInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInterfaceController.swift; sourceTree = "<group>"; };
+		41C2E27823B3F6170018F7D1 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FileManager-DocumentsDirectory.swift"; path = "WatchReactions WatchKit App/FileManager-DocumentsDirectory.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,9 +175,11 @@
 		41C2E24623B2B0F10018F7D1 /* WatchReactions WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				41C2E27823B3F6170018F7D1 /* FileManager-DocumentsDirectory.swift */,
 				41C2E27023B2BCE30018F7D1 /* TableInterfaceController.swift */,
 				41C2E25B23B2B4670018F7D1 /* SoundPlaying.swift */,
 				41C2E24723B2B0F10018F7D1 /* InterfaceController.swift */,
+				41C2E27623B3F3630018F7D1 /* CustomInterfaceController.swift */,
 				41C2E24923B2B0F10018F7D1 /* ExtensionDelegate.swift */,
 				41C2E24B23B2B0F10018F7D1 /* Assets.xcassets */,
 				41C2E24D23B2B0F10018F7D1 /* Info.plist */,
@@ -349,9 +355,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				41C2E27523B2BD8A0018F7D1 /* TableInterfaceController.swift in Sources */,
+				41C2E27923B3F6170018F7D1 /* FileManager-DocumentsDirectory.swift in Sources */,
 				41C2E24A23B2B0F10018F7D1 /* ExtensionDelegate.swift in Sources */,
 				41C2E27323B2BD720018F7D1 /* SoundRow.swift in Sources */,
 				41C2E25C23B2B4670018F7D1 /* SoundPlaying.swift in Sources */,
+				41C2E27723B3F3630018F7D1 /* CustomInterfaceController.swift in Sources */,
 				41C2E24823B2B0F10018F7D1 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U3KE7SEG5;
 				INFOPLIST_FILE = "WatchReactions WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -539,6 +548,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U3KE7SEG5;
 				INFOPLIST_FILE = "WatchReactions WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -561,6 +571,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U3KE7SEG5;
 				IBSC_MODULE = WatchReactions_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchReactions WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wmichelin.WatchReactions.watchkitapp;
@@ -579,6 +590,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U3KE7SEG5;
 				IBSC_MODULE = WatchReactions_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchReactions WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wmichelin.WatchReactions.watchkitapp;
@@ -595,7 +607,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U3KE7SEG5;
 				INFOPLIST_FILE = WatchReactions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -603,6 +617,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wmichelin.WatchReactions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -612,7 +627,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U3KE7SEG5;
 				INFOPLIST_FILE = WatchReactions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -620,6 +637,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wmichelin.WatchReactions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
