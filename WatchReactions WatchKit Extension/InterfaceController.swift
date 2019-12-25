@@ -29,20 +29,20 @@ class InterfaceController: WKInterfaceController, SoundPlaying {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-    
-    
+
+
     @IBAction func playSound1() {
         playSound(named: "808")
     }
-    
+
     @IBAction func playSound2() {
         playSound(named: "Coins")
     }
-    
+
     @IBAction func playSound3() {
         playSound(named: "HiHat")
     }
-    
+
     @IBAction func playSound4() {
         playSound(named: "Woof")
     }
