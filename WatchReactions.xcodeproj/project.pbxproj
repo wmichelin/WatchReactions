@@ -20,6 +20,17 @@
 		41C2E24823B2B0F10018F7D1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2E24723B2B0F10018F7D1 /* InterfaceController.swift */; };
 		41C2E24A23B2B0F10018F7D1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2E24923B2B0F10018F7D1 /* ExtensionDelegate.swift */; };
 		41C2E24C23B2B0F10018F7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C2E24B23B2B0F10018F7D1 /* Assets.xcassets */; };
+		41C2E25C23B2B4670018F7D1 /* SoundPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2E25B23B2B4670018F7D1 /* SoundPlaying.swift */; };
+		41C2E26823B2BB840018F7D1 /* Coins.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41C2E26023B2BB840018F7D1 /* Coins.mp3 */; };
+		41C2E26923B2BB840018F7D1 /* Woosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41C2E26123B2BB840018F7D1 /* Woosh.mp3 */; };
+		41C2E26A23B2BB840018F7D1 /* HiHat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41C2E26223B2BB840018F7D1 /* HiHat.mp3 */; };
+		41C2E26B23B2BB840018F7D1 /* Woof.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41C2E26323B2BB840018F7D1 /* Woof.mp3 */; };
+		41C2E26C23B2BB840018F7D1 /* Swish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41C2E26423B2BB840018F7D1 /* Swish.mp3 */; };
+		41C2E26D23B2BB840018F7D1 /* SoftHit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41C2E26523B2BB840018F7D1 /* SoftHit.mp3 */; };
+		41C2E26E23B2BB840018F7D1 /* 808.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41C2E26623B2BB840018F7D1 /* 808.mp3 */; };
+		41C2E26F23B2BB840018F7D1 /* Peep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41C2E26723B2BB840018F7D1 /* Peep.mp3 */; };
+		41C2E27323B2BD720018F7D1 /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2E27223B2BD720018F7D1 /* SoundRow.swift */; };
+		41C2E27523B2BD8A0018F7D1 /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2E27023B2BCE30018F7D1 /* TableInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +93,17 @@
 		41C2E24923B2B0F10018F7D1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		41C2E24B23B2B0F10018F7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C2E24D23B2B0F10018F7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C2E25B23B2B4670018F7D1 /* SoundPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoundPlaying.swift; path = "WatchReactions WatchKit App/SoundPlaying.swift"; sourceTree = SOURCE_ROOT; };
+		41C2E26023B2BB840018F7D1 /* Coins.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Coins.mp3; sourceTree = "<group>"; };
+		41C2E26123B2BB840018F7D1 /* Woosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Woosh.mp3; sourceTree = "<group>"; };
+		41C2E26223B2BB840018F7D1 /* HiHat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HiHat.mp3; sourceTree = "<group>"; };
+		41C2E26323B2BB840018F7D1 /* Woof.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Woof.mp3; sourceTree = "<group>"; };
+		41C2E26423B2BB840018F7D1 /* Swish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Swish.mp3; sourceTree = "<group>"; };
+		41C2E26523B2BB840018F7D1 /* SoftHit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SoftHit.mp3; sourceTree = "<group>"; };
+		41C2E26623B2BB840018F7D1 /* 808.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 808.mp3; sourceTree = "<group>"; };
+		41C2E26723B2BB840018F7D1 /* Peep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Peep.mp3; sourceTree = "<group>"; };
+		41C2E27023B2BCE30018F7D1 /* TableInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableInterfaceController.swift; path = "WatchReactions WatchKit Extension/TableInterfaceController.swift"; sourceTree = SOURCE_ROOT; };
+		41C2E27223B2BD720018F7D1 /* SoundRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,12 +171,31 @@
 		41C2E24623B2B0F10018F7D1 /* WatchReactions WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				41C2E27023B2BCE30018F7D1 /* TableInterfaceController.swift */,
+				41C2E25B23B2B4670018F7D1 /* SoundPlaying.swift */,
 				41C2E24723B2B0F10018F7D1 /* InterfaceController.swift */,
 				41C2E24923B2B0F10018F7D1 /* ExtensionDelegate.swift */,
 				41C2E24B23B2B0F10018F7D1 /* Assets.xcassets */,
 				41C2E24D23B2B0F10018F7D1 /* Info.plist */,
+				41C2E25F23B2BB840018F7D1 /* Audio */,
+				41C2E27223B2BD720018F7D1 /* SoundRow.swift */,
 			);
 			path = "WatchReactions WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		41C2E25F23B2BB840018F7D1 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				41C2E26023B2BB840018F7D1 /* Coins.mp3 */,
+				41C2E26123B2BB840018F7D1 /* Woosh.mp3 */,
+				41C2E26223B2BB840018F7D1 /* HiHat.mp3 */,
+				41C2E26323B2BB840018F7D1 /* Woof.mp3 */,
+				41C2E26423B2BB840018F7D1 /* Swish.mp3 */,
+				41C2E26523B2BB840018F7D1 /* SoftHit.mp3 */,
+				41C2E26623B2BB840018F7D1 /* 808.mp3 */,
+				41C2E26723B2BB840018F7D1 /* Peep.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +319,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C2E26F23B2BB840018F7D1 /* Peep.mp3 in Resources */,
 				41C2E24C23B2B0F10018F7D1 /* Assets.xcassets in Resources */,
+				41C2E26A23B2BB840018F7D1 /* HiHat.mp3 in Resources */,
+				41C2E26B23B2BB840018F7D1 /* Woof.mp3 in Resources */,
+				41C2E26D23B2BB840018F7D1 /* SoftHit.mp3 in Resources */,
+				41C2E26823B2BB840018F7D1 /* Coins.mp3 in Resources */,
+				41C2E26E23B2BB840018F7D1 /* 808.mp3 in Resources */,
+				41C2E26923B2BB840018F7D1 /* Woosh.mp3 in Resources */,
+				41C2E26C23B2BB840018F7D1 /* Swish.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +348,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C2E27523B2BD8A0018F7D1 /* TableInterfaceController.swift in Sources */,
 				41C2E24A23B2B0F10018F7D1 /* ExtensionDelegate.swift in Sources */,
+				41C2E27323B2BD720018F7D1 /* SoundRow.swift in Sources */,
+				41C2E25C23B2B4670018F7D1 /* SoundPlaying.swift in Sources */,
 				41C2E24823B2B0F10018F7D1 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
